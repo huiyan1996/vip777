@@ -9,6 +9,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #bdbdbd;
+}
+
 .topPart {
     background: url(https://ppg668.b-cdn.net/images/bg1.jpg);
     background-repeat: no-repeat;
@@ -168,8 +172,10 @@ a {
 .bottomNavItem.special img {
     position: absolute;
     bottom: 25px;
-    left: 0;
+    left: 50%;
     display: block;
+    transform: translateX(-50%);
+    max-width: 100px;
 }
 
 .bottomNavItem .icon {
@@ -319,6 +325,38 @@ a {
 .VueCarousel-dot-container, .VueCarousel-dot {
     margin-top: 0 !important;
     outline: none !important;
+}
+
+.sectionTitle {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.tip-items {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tip-box img {
+    width: 100%;
+}
+
+.tip-detail {
+    text-align: center;
+    font-size: 12px;
+    background-color: #000;
+}
+
+.tip-game {
+    color: #49cadf;
+}
+
+.tip-rate {
+    color: #a03939;
 }
 
 /* Animation */

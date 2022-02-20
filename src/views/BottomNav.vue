@@ -5,7 +5,7 @@
             <font-awesome-icon class="icon" icon="home" />
             <span>Home</span>
         </router-link>
-        <router-link to="/" class="bottomNavItem">
+        <router-link to="/slotTips" class="bottomNavItem">
             <font-awesome-icon class="icon" icon="lightbulb" />
             <span>Slot Tips</span>
         </router-link>
