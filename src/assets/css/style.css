@@ -14,6 +14,13 @@ a:hover {
     color: #bdbdbd;
 }
 
+.btn.btn-primary {
+    border: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: transparent linear-gradient(180deg, #5bb9ff 0%, #257db7 19%, #225b8b 58%, #122433 100%) 0% 0% no-repeat;
+}
+
 .topPart {
     background: url(https://ppg668.b-cdn.net/images/bg1.jpg);
     background-repeat: no-repeat;
@@ -29,11 +36,13 @@ a:hover {
     top: 10px;
 }
 
-.langDropdown, .langDropdown:focus {
+.btn.btn-primary.langDropdown, .btn.btn-primary.langDropdown:focus {
     border: none;
-    background-color: transparent;
+    background: transparent;
     color: #fff;
     outline: none;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .burgerMenu {
@@ -366,13 +375,6 @@ a:hover {
 
 .form-label {
     color: #fff;
-}
-
-.btn.btn-primary {
-    border: none;
-    padding-left: 30px;
-    padding-right: 30px;
-    background: transparent linear-gradient(180deg, #5bb9ff 0%, #257db7 19%, #225b8b 58%, #122433 100%) 0% 0% no-repeat;
 }
 
 .forgotPasswordLink {
