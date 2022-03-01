@@ -2,7 +2,7 @@
   <div id="app">
     <Topbar />
     <div class="container px-0">
-      <Transition name="fade">
+      <Transition name="fade" mode="out-in">
         <router-view/>
       </Transition>
     </div>

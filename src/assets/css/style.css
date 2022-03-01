@@ -7,6 +7,7 @@ body {
 
 a {
     text-decoration: none;
+    color: #00adee;
 }
 
 a:hover {
@@ -327,6 +328,10 @@ a:hover {
     outline: none !important;
 }
 
+.section {
+    color: #fff;
+}
+
 .sectionTitle {
     text-align: center;
     color: #fff;
@@ -357,6 +362,25 @@ a:hover {
 
 .tip-rate {
     color: #a03939;
+}
+
+.form-label {
+    color: #fff;
+}
+
+.btn.btn-primary {
+    border: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: transparent linear-gradient(180deg, #5bb9ff 0%, #257db7 19%, #225b8b 58%, #122433 100%) 0% 0% no-repeat;
+}
+
+.forgotPasswordLink {
+    color: #ff920a!important;
+}
+
+.mx-datepicker {
+    width: 100%;
 }
 
 /* Animation */

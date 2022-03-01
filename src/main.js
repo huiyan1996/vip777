@@ -7,6 +7,8 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import VueCarousel from 'vue-carousel';
+import 'vue2-datepicker/index.css';
+import DatePicker from 'vue2-datepicker';
 
 // Import Bootstrap an BootstrapVue CSS files (order is important)
 import 'bootstrap/dist/css/bootstrap.css'
@@ -17,6 +19,7 @@ library.add(fas, fab)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.use(VueCarousel)
+Vue.use(DatePicker)
 // Make BootstrapVue available throughout your project
 Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components plugin

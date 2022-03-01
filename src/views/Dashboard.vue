@@ -12,14 +12,7 @@
         <marquee>Welcome to VIP 777</marquee>
       </div>
     </div>
-    <div class="row mx-0">
-      <div class="col-6 px-0">
-        <router-link to="/login" class="btn btn-login">Login</router-link>
-      </div>
-      <div class="col-6 px-0">
-        <router-link to="/register" class="btn btn-register">Join Now</router-link>
-      </div>
-    </div>
+    <BeforeLogin />
     <div class="col-12">
       <GameList />
     </div>
@@ -34,6 +27,7 @@
 import DashboardSlider from '@/views/DashboardSlider.vue'
 import GameList from '@/views/GameList.vue'
 import LatestList from '@/views/LatestList.vue'
+import BeforeLogin from '@/views/BeforeLogin.vue'
 
 export default {
   name: 'Dashboard',
@@ -41,6 +35,7 @@ export default {
     DashboardSlider,
     GameList,
     LatestList,
+    BeforeLogin
   },
   data: function() {
     return {
